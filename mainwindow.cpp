@@ -25,7 +25,7 @@ MainWindow::~MainWindow()
 void MainWindow::on_creatNumber_clicked()
 {
 //    numberSize = QInputDialog::getInt(this,"生成数量：","数量",numberSize);
-    qsrand(196003408);
+    qsrand(42);
     QTime time;
     time.start();
     ui->currentTime->setText("");
